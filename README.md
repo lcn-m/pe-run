@@ -14,9 +14,9 @@ Next run pe.exe with -u params and path the url to result.bin
 
 | Tested AV     | MSF_REV_TCP   | OWN PE |
 | ------------- |:-------------:|:-----:|
-| AVAST     | + | + |
-| ESET      | + | + |
-| DrWEB     | + | + |
-| 360Sec    | + | + |
-| KASPERSKY | - | + |
-| AVG       | + | + |
+| AVAST     | ✅ | ✅ |
+| ESET      | ✅ | ✅ |
+| DrWEB     | ✅ | ✅ |
+| 360Sec    | ✅ | ✅ |
+| KASPERSKY | ⬜️ | ✅ |
+| AVG       | ✅ | ✅ |
