@@ -1,4 +1,4 @@
-# pe-run
+# PERunner
 Runs RAW or PE file in memory, avoiding AV.
 First generate RAW with shellcoding.py (Requires https://github.com/TheWover/donut in current directory). 
 Example of usage:
