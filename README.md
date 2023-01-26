@@ -5,7 +5,7 @@ Example of usage:
 
 `python3 shellcoding.py -t msf -p 'msfvenom -a x86 --platform Windows -p windows/exec CMD="calc.exe" -f raw'`
 
-`python3 shellcoding.py -t pe -p zzz.exe `
+`python3 shellcoding.py -t pe -p your_exe_not_in_golang.exe `
 
 Next run pe.exe with -u params and path the url to result.bin
 
