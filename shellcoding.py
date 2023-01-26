@@ -4,10 +4,6 @@ import argparse
 from random import randint
 
 
-# Example of usage:
-# python3 shellcoding.py -t msf -p 'msfvenom -a x86 --platform Windows -p windows/exec CMD="calc.exe" -f raw'
-# python3 shellcoding.py -t pe -p zzz.exe 
-
 parser = argparse.ArgumentParser(
     prog='Shellcode Creator',
     description='Creates RAW from PE by rewriting Entry.Point with loader/Creates RAW with msfvenom. RAW encoding: XOR',
